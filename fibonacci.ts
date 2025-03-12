@@ -19,6 +19,6 @@ const fibsRec = (num: number, arr: number[] = []) => {
   return arr.reverse();
 };
 
-console.log(fibonacci(8)); // 55
+console.log(fibonacci(8)); // 21
 console.log(fibs(8)); // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 console.log(fibsRec(8)); // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
